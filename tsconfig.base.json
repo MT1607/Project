@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@redux/hooks": ["libs/todo/redux/hooks/src/index.ts"],
+      "@redux/reducer": ["libs/todo/redux/reducer/src/index.ts"],
+      "@redux/store": ["libs/todo/redux/store/src/index.ts"],
+      "@redux/type": ["libs/todo/redux/type/src/index.ts"],
+      "@ui/todo-item": ["libs/todo/ui/todo-item/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

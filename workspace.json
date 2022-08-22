@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "todo": "apps/todo",
+    "todo-e2e": "apps/todo-e2e",
+    "todo-redux-hooks": "libs/todo/redux/hooks",
+    "todo-redux-reducer": "libs/todo/redux/reducer",
+    "todo-redux-store": "libs/todo/redux/store",
+    "todo-redux-type": "libs/todo/redux/type",
+    "todo-ui-todo-item": "libs/todo/ui/todo-item"
+  }
 }
